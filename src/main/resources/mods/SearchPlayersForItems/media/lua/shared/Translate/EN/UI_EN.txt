@@ -1,0 +1,8 @@
+UI_EN = {
+    UI_Searching = "Weapons search",
+    UI_SearchingUIHelp = "<CENTRE> <SIZE:medium> Use this UI to search other players for weapons in their primary inventory. <LINE> <LINE> <SIZE:small> <LEFT> Items contained in their backpack or other worn/held storage containers will not be shown. <LINE> <LINE> This won't remove the items from them, it just shows you if they're holding something that could be dangerous.",
+    UI_SearchingItemsFound = "Found weapons",
+    UI_SearchingNoItems = "No weapons",
+    UI_SearchingGetCloser = "You must get closer to search them",
+    UI_SearchStub = "Search %1",
+}

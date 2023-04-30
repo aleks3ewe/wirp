@@ -1,0 +1,40 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'org.wirp'
+version '1.0-SNAPSHOT'
+
+mainClassName = 'org.wirp.LuaFileRun'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs/', include: ['*.jar'])
+
+    implementation 'party.iroiro.luajava:luajava:3.4.0'
+    implementation 'party.iroiro.luajava:lua54:3.4.0'
+    runtimeOnly 'party.iroiro.luajava:lua54-platform:3.4.0:natives-desktop'
+
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+
+    compileOnly 'org.projectlombok:lombok:1.18.26'
+    annotationProcessor 'org.projectlombok:lombok:1.18.26'
+
+    implementation 'org.slf4j:slf4j-api:2.0.7'
+    implementation 'ch.qos.logback:logback-classic:1.4.7'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+

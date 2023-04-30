@@ -1,0 +1,5 @@
+ContextMenu_PTBR = {
+    ContextMenu_Restrain = "Prender %1",
+    ContextMenu_Free = "Libertar %1",
+    ContextMenu_Inventary = "Revistar %1",
+} 

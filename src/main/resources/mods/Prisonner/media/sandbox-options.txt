@@ -1,0 +1,10 @@
+VERSION = 1,
+
+option Prisonner.Inspect
+{
+    type = boolean,
+    default = true,
+
+    page = Prisonner,
+    translation = Prisonner_Inspect,
+}

@@ -1,0 +1,6 @@
+name=Prisonner
+poster=Prisonner.png
+id=Prisonner
+description=Allows players to Restrain and Free actions from another player who surrenders.
+icon=bubble1.png
+pack=BP

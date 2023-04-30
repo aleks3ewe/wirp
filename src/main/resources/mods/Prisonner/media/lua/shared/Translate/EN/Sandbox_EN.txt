@@ -1,0 +1,6 @@
+Sandbox_EN = {
+    Sandbox_Prisonner = "Mod Prisonner",
+
+    Sandbox_Prisonner_Inspect = "Activate Inspect contextual menu action",
+    Sandbox_Prisonner_Inspect_tooltip = "This action lists all items worn by the restrained character.",
+}
