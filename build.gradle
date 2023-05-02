@@ -6,7 +6,7 @@ plugins {
 group 'org.wirp'
 version '1.0-SNAPSHOT'
 
-mainClassName = 'org.wirp.LuaFileRun'
+mainClassName = 'org.wirp.ScriptRunner'
 
 repositories {
     mavenCentral()
@@ -15,9 +15,7 @@ repositories {
 dependencies {
     implementation fileTree(dir: 'libs/', include: ['*.jar'])
 
-    implementation 'party.iroiro.luajava:luajava:3.4.0'
-    implementation 'party.iroiro.luajava:lua54:3.4.0'
-    runtimeOnly 'party.iroiro.luajava:lua54-platform:3.4.0:natives-desktop'
+    implementation 'org.luaj:luaj-jse:3.0.1'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
